@@ -1,5 +1,5 @@
 ## We specify the base image we need for our frontend application
-FROM node:23-alpine
+FROM node:16
 
 ## We create /frontend directory within our image.
 ## This directory will hold our frontend source files.
