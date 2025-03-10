@@ -68,12 +68,12 @@ yarn start
 ## Running with Docker
 Build
 ```
-docker build -t dashboard .
+docker build -t mydashboard .
 ```
 
 Run with docker
 ```
-docker run -p 80:4000 -it dashboard
+docker run -p 4000:4000 -it mydashboard
 ```
 ## Demo
 
